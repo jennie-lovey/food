@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
 :root {
     --dark-pink: #ef7398;
     --light-pink: #ffd7e3;
     --p: 14px;
-    --font: "Sansf serif"
+    --font: "Lato"
     
 }
