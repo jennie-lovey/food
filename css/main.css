@@ -1,4 +1,6 @@
 @import "variables.css";
+
+
 * {
     margin: 0px auto;
     padding: 0;
@@ -30,30 +32,31 @@ nav ul li {
 
 }
 div #button1{
-
-}
-#button1{
+    margin-top: 10px;
+    margin-bottom: 20px;
     background-color: palevioletred;
     border-radius: 24px;
     padding: 10px;
     display: block;
     border: none;
     color:white;
-    
-
 }
+
 div h1, h2, button{
     display: flexbox;
-    
-    
 }
+
 div h1{
     text-align: center;
 }
-div h2{
-    text-align: center;
 
+div p.banner__p{
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+    font-weight: 100;
 }
+
 div button{
     background-color: palevioletred;
     border-radius: 24px;
@@ -61,5 +64,49 @@ div button{
     display: block;
     border: none;
     color:white;
-    
+    margin-top: 20px;
 }
+
+.banner {
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    background-image: linear-gradient(to right, 
+        rgba(4, 4, 75, .95), 
+        rgba(4, 4, 75, .69), 
+        rgba(4, 4, 75, .15)), 
+    url("../images/delicious.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner__cont {
+    padding: 12%;
+}
+
+.banner__cont h1 {
+    font-size: 40px;
+}
+
+/* ==================== STATS SECTION ================= */
+.stats {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-pink);
+    padding: 20px 0px;
+}
+.stats__heading {
+    text-transform: uppercase;
+    color:gray;
+    margin-bottom: 20px;
+}
+
+.stats__cont {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+}
+
